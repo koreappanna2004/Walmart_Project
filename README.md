@@ -9,7 +9,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 
 ---
 
-## Project Steps
+## Project Steps        
 
 ### 1. Set Up the Environment
    - **Tools Used**: Visual Studio Code (VS Code), Python, SQL (MySQL and PostgreSQL)
@@ -49,8 +49,8 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Enhance Dataset**: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
 
 ### 8. Load Data into MySQL and PostgreSQL
-   - **Set Up Connections**: Connect to MySQL and PostgreSQL using `sqlalchemy` and load the cleaned data into each database.
-   - **Table Creation**: Set up tables in both MySQL and PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
+   - **Set Up Connections**: Connect to MySQL using `sqlalchemy` and load the cleaned data into each database.
+   - **Table Creation**: Set up tables in both MySQL and using Python SQLAlchemy to automate table creation and data insertion.
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
 
 ### 9. SQL Analysis: Complex Queries and Business Problem Solving
@@ -77,7 +77,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 - **Python 3.8+**
 - **SQL Databases**: MySQL, PostgreSQL
 - **Python Libraries**:
-  - `pandas`, `numpy`, `sqlalchemy`, `mysql-connector-python`, `psycopg2`
+  - `pandas`, `numpy`, `sqlalchemy`, `mysql-connector-python`
 - **Kaggle API Key** (for data downloading)
 
 ## Getting Started
@@ -118,13 +118,7 @@ This section will include your analysis findings:
 Possible extensions to this project:
 - Integration with a dashboard tool (e.g., Power BI or Tableau) for interactive visualization.
 - Additional data sources to enhance analysis depth.
-- Automation of the data pipeline for real-time data ingestion and analysis.
-
----
-
-## License
-
-This project is licensed under the MIT License. 
+- Automation of the data pipeline for real-time data ingestion and analysis.  
 
 ---
 
